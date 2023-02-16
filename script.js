@@ -16,5 +16,5 @@ async function sendApiRequest(){
 }
 
 function useApiData(data){
-  document.querySelector("#content").innerHTML += `<img src = ${data.img_src}></img>`;
+  document.querySelector("#content").innerHTML += `<img src = ${data.img_src} /img>`;
 }
