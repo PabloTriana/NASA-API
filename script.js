@@ -17,8 +17,6 @@ async function sendApiRequest(){
   useApiData(data);
 }
 
-
-//function that does something with the data received from the API. The name of the function should be customized to whatever you are doing with the data
 function useApiData(data){
   document.querySelector("#content").innerHTML += `<img_src = "${data.photos[0].img_src}">`;
 }
